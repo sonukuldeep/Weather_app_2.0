@@ -1,16 +1,57 @@
-# weather2
+# Weather app 2.0
 
-A new Flutter project.
+Weather app 2.0. Learning flutter in 100 days
 
-## Getting Started
+A heartly thanks to romain-girou, the creator of the original app and weather api without whom this project would never have been possible.
 
-This project is a starting point for a Flutter application.
+## Acknowledgements
 
-A few resources to get you started if this is your first Flutter project:
+ - romain-girou the youtuber
+ - Flutter community
+ - Every tutorial video on Flutter and dart
+ - Opensource community
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project requires Flutter and dart.
+
+### Clone the website using
+```npm
+git clone 
+```
+
+### Fireup the app
+Connect phone or select the android emulator
+
+### Run using
+```bash
+  npm run dev
+```
+
+### Screenshot
+
+
+## Important files
+```css
+lib
+├── main.dart
+├── screens/home_screens.dart
+├── bloc/weather_bloc_bloc.dart
+├── bloc/weather_bloc_event.dart
+└── bloc/weather_bloc_state.dart
+```
+
+## Badges
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Author
+- [@sonukuldeep](https://www.github.com/sonukuldeep)
+
+
+## 🛠 Skills
+
+[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,tailwind,sass,nodejs,react,nextjs,svelte,vue,flask,rust,python,php,solidity,mongodb,mysql,prisma,figma,threejs,unity,godot,dart,flutter)](https://github.com/sonukuldeep)
