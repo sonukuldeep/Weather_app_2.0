@@ -105,6 +105,7 @@ class HomePage extends StatelessWidget {
                       decoration: const BoxDecoration(color: Color(0xFFFFAB40)),
                     ),
                   ),
+                  // this is where blur magic happens
                   BackdropFilter(
                     filter: ImageFilter.blur(sigmaX: 100.0, sigmaY: 100.0),
                     child: Container(
@@ -126,10 +127,12 @@ class HomePage extends StatelessWidget {
 
                               textComponent(
                                   'Good Morning', FontWeight.bold, 25),
-                              Center(
-                                child: Image.asset(
-                                  getImage(state.weather.weatherConditionCode!),
-                                  scale: 2,
+                              Expanded(
+                                child: Center(
+                                  child: Image.asset(
+                                    getImage(
+                                        state.weather.weatherConditionCode!),
+                                  ),
                                 ),
                               ),
                               Center(
