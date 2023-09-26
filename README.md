@@ -4,6 +4,8 @@ Weather app 2.0. Learning flutter in 100 days
 
 A heartly thanks to romain-girou, the creator of the original app and weather api without whom this project would never have been possible.
 
+If you're cloning the app then don't forget to add *.env* file in root folder with weather api in it
+
 ## Acknowledgements
 
  - romain-girou the youtuber
@@ -25,7 +27,7 @@ Connect phone or select the android emulator
 
 ### Run using
 ```bash
-  npm run dev
+  flutter run
 ```
 
 ### Screenshot
