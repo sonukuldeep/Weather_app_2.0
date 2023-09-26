@@ -29,7 +29,7 @@ Connect phone or select the android emulator
 ```
 
 ### Screenshot
-
+<img src="https://github.com/sonukuldeep/Weather_app_2.0/assets/57728165/153263a7-bce4-4920-98e9-550af0f48ff5" alt="screenshot" width="300px"/>
 
 ## Important files
 ```css
